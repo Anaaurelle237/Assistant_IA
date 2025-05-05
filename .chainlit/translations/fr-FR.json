@@ -1,0 +1,255 @@
+{
+  "chat": {
+    "input": {
+      "placeholder": "Posez votre question sur le processus de branchement ENEO...",
+      "actions": {
+        "send": "Envoyer le message",
+        "stop": "Arrêter",
+        "attachFiles": "Joindre des fichiers"
+      }
+    },
+    "thinking": "Réflexion en cours...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "watermark": "Propulsé par",
+    "speech": {
+      "start": "Démarrer l'enregistrement",
+      "stop": "Arrêter l'enregistrement",
+      "connecting": "Connexion en cours"
+    },
+    "fileUpload": {
+      "title": "Télécharger un fichier",
+      "dragDrop": "Glissez et déposez les fichiers ici",
+      "browse": "Parcourir",
+      "sizeLimit": "Limite :",
+      "errors": {
+        "failed": "Échec du téléchargement",
+        "cancelled": "Téléchargement annulé de"
+      }
+    },
+    "history": {
+      "title": "Dernières questions",
+      "empty": "Aucun historique...",
+      "show": "Afficher l'historique"
+    },
+    "messages": {
+      "empty": "Aucun message",
+      "status": {
+        "using": "Utilisation",
+        "used": "Utilisé"
+      },
+      "actions": {
+        "copy": {
+          "button": "Copier dans le presse-papiers",
+          "success": "Copié !"
+        }
+      },
+      "feedback": {
+        "positive": "Utile",
+        "negative": "Pas utile",
+        "edit": "Modifier le retour",
+        "dialog": {
+          "title": "Ajouter un commentaire",
+          "submit": "Envoyer le retour"
+        },
+        "status": {
+          "updating": "Mise à jour",
+          "updated": "Retour mis à jour"
+        }
+      }
+    },
+    "settings": {
+      "title": "Paramètres"
+    }
+  },
+  "sidebar": {
+    "newChat": "Nouvelle conversation",
+    "settings": "Paramètres",
+    "clearChat": "Effacer la conversation",
+    "theme": {
+      "light": "Clair",
+      "dark": "Sombre"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "close": "Fermer"
+  },
+  "welcome": {
+    "title": "Bienvenue sur l'Assistant ENEO",
+    "description": "Posez vos questions sur le processus de branchement ENEO"
+  },
+  "apiKeys": {
+    "title": "Clés API requises",
+    "description": "Pour utiliser cette application, les clés API suivantes sont nécessaires. Les clés sont stockées localement sur votre appareil.",
+    "success": {
+      "saved": "Enregistré avec succès"
+    }
+  },
+  "threadHistory": {
+    "title": "Historique des conversations",
+    "empty": "Aucune conversation",
+    "load": "Charger",
+    "delete": "Supprimer",
+    "sidebar": {
+      "title": "Conversations précédentes",
+      "filters": {
+        "search": "Rechercher",
+        "placeholder": "Rechercher dans les conversations..."
+      },
+      "timeframes": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "previous7days": "7 derniers jours",
+        "previous30days": "30 derniers jours"
+      },
+      "empty": "Aucune conversation trouvée",
+      "actions": {
+        "close": "Fermer la barre latérale",
+        "open": "Ouvrir la barre latérale"
+      }
+    },
+    "thread": {
+      "untitled": "Conversation sans titre",
+      "menu": {
+        "rename": "Renommer",
+        "delete": "Supprimer"
+      },
+      "actions": {
+        "delete": {
+          "title": "Confirmer la suppression",
+          "description": "Cette action supprimera la conversation ainsi que ses messages et éléments. Cette action est irréversible",
+          "success": "Conversation supprimée",
+          "inProgress": "Suppression de la conversation"
+        },
+        "rename": {
+          "title": "Renommer la conversation",
+          "description": "Entrez un nouveau nom pour cette conversation",
+          "form": {
+            "name": {
+              "label": "Nom",
+              "placeholder": "Entrez un nouveau nom"
+            }
+          },
+          "success": "Conversation renommée !",
+          "inProgress": "Renommage de la conversation"
+        }
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion à l'application",
+      "form": {
+        "email": {
+          "label": "Adresse e-mail",
+          "required": "L'e-mail est requis"
+        },
+        "password": {
+          "label": "Mot de passe",
+          "required": "Le mot de passe est requis"
+        },
+        "actions": {
+          "signin": "Se connecter"
+        },
+        "alternativeText": {
+          "or": "OU"
+        }
+      },
+      "errors": {
+        "default": "Impossible de se connecter",
+        "signin": "Essayez de vous connecter avec un autre compte",
+        "oauthSignin": "Essayez de vous connecter avec un autre compte",
+        "redirectUriMismatch": "L'URI de redirection ne correspond pas à la configuration de l'application OAuth",
+        "oauthCallback": "Essayez de vous connecter avec un autre compte",
+        "oauthCreateAccount": "Essayez de vous connecter avec un autre compte",
+        "emailCreateAccount": "Essayez de vous connecter avec un autre compte",
+        "callback": "Essayez de vous connecter avec un autre compte",
+        "oauthAccountNotLinked": "Pour confirmer votre identité, connectez-vous avec le même compte que celui utilisé initialement",
+        "emailSignin": "L'e-mail n'a pas pu être envoyé",
+        "emailVerify": "Veuillez vérifier votre e-mail, un nouvel e-mail a été envoyé",
+        "credentialsSignin": "Échec de la connexion. Vérifiez que les informations fournies sont correctes",
+        "sessionRequired": "Veuillez vous connecter pour accéder à cette page"
+      }
+    },
+    "logout": "Déconnexion",
+    "signup": "Inscription",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "provider": {
+      "continue": "Continuer avec {{provider}}"
+    }
+  },
+  "alerts": {
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Attention",
+    "info": "Info",
+    "note": "Note",
+    "tip": "Astuce",
+    "important": "Important",
+    "caution": "Prudence",
+    "debug": "Débogage",
+    "example": "Exemple",
+    "help": "Aide",
+    "idea": "Idée",
+    "pending": "En attente",
+    "security": "Sécurité",
+    "beta": "Bêta",
+    "best-practice": "Bonne pratique"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "actions": {
+      "confirm": "Confirmer",
+      "continue": "Continuer",
+      "goBack": "Retour",
+      "reset": "Réinitialiser",
+      "submit": "Envoyer"
+    },
+    "status": {
+      "error": {
+        "default": "Une erreur est survenue",
+        "serverConnection": "Impossible de joindre le serveur"
+      }
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "settings": "Paramètres",
+    "help": "Aide",
+    "header": {
+      "chat": "Chat",
+      "readme": "Documentation",
+      "theme": {
+        "light": "Thème clair",
+        "dark": "Thème sombre",
+        "system": "Thème système"
+      }
+    },
+    "newChat": {
+      "button": "Nouvelle conversation",
+      "dialog": {
+        "title": "Créer une nouvelle conversation",
+        "description": "Cela effacera votre historique de conversation actuel. Voulez-vous continuer ?",
+        "tooltip": "Nouvelle conversation"
+      }
+    },
+    "user": {
+      "menu": {
+        "settings": "Paramètres",
+        "settingsKey": "P",
+        "apiKeys": "Clés API",
+        "logout": "Déconnexion"
+      }
+    }
+  }
+} 

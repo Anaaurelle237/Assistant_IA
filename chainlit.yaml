@@ -1,0 +1,13 @@
+app:
+  name: "Assistant ENEO"
+  description: "Assistant virtuel pour le processus de branchement ENEO"
+  default_language: "fr"
+
+features:
+  show_avatar: true
+  show_source: true
+  show_thought: false
+
+ui:
+  theme: "light"
+  primary_color: "#1E88E5" 

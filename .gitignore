@@ -1,0 +1,12 @@
+#dossiers
+/faiss_index
+/markdown_branchements
+/processus_branchement
+/output
+
+
+#fichiers
+
+chainlit_fr-FR.md
+pdf_marker.ipynb
+rag_pipeline.ipynb
