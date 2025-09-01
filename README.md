@@ -46,7 +46,8 @@ Installez Ollama et les modèles que vous souhaitez
 
 Placez vos fichiers Markdown dans markdown_branchements.
 Placez vos fichiers sources (PDF, DOC, DOCX, TXT) dans processus_branchement, avec une structure de sous-dossiers si nécessaire.
-Exemple de structure :projet/
+Exemple de structure :
+projet/
 ├── markdown_branchements/
 │   ├── procedure.md
 │   ├── branchement.md
@@ -83,16 +84,13 @@ Pour personnaliser, modifiez le fichier app.py avant de lancer l'application.
 
 - Les liens redirigent vers l'interface Chainlit : Vérifiez que CONFIG["base_url"] correspond à l'URL publique de votre serveur.
 Assurez-vous que le dossier processus_branchement est accessible et que les fichiers sources existent.
-Consultez les logs (INFO et DEBUG) pour vérifier les URLs générées :python -m logging.basicConfig(level=logging.DEBUG)
-chainlit run app.py
+
 
 - Temps de réponse lent : Vérifiez que l'index FAISS (faiss_index.pkl) est chargé correctement (logs à l'initialisation).
 Réduisez top_k_retrieve ou augmentez chunk_size dans CONFIG pour optimiser. Supprimer aussi la fonction de reformulation de questions.
 
-- Logs pour diagnostic : Les logs sont affichés dans la console ou dans un fichier configuré via logging.
-Recherchez les messages Generated link for ..., Added source link for ..., et Static files mounted at ....
 
-- Contribuer: Forkez le dépôt.
+- Contribuer: Clonez le dépôt.
 Créez une branche pour vos modifications :git checkout -b ma-fonctionnalite
 
 - Soumettez une pull request avec une description claire de vos changements.
