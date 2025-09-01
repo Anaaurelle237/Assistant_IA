@@ -3,11 +3,19 @@
 /markdown_branchements
 /processus_branchement
 /output
-
-
+/env
+/.files
+/all_mpnet_local
+/conversation_history
 #fichiers
 
 chainlit_fr-FR.md
 pdf_marker.ipynb
+chainlit.mdchainlit.yaml
+faiss_index
+faiss_index.pkl
 rag_pipeline.ipynb
-saved_index.pkl
+index.ipynb
+pdf_marker.ipynb
+rag_evaluation.py
+source_linapp.ipynb
