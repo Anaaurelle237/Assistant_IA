@@ -11,11 +11,11 @@
 
 chainlit_fr-FR.md
 pdf_marker.ipynb
-chainlit.mdchainlit.yaml
+chainlit.yaml
 faiss_index
 faiss_index.pkl
 rag_pipeline.ipynb
 index.ipynb
 pdf_marker.ipynb
 rag_evaluation.py
-source_linapp.ipynb
+source_links.ipynb
