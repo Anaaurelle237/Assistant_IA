@@ -1,4 +1,4 @@
-# chainlit_app_optimized.py
+
 import os
 import pickle
 import logging
